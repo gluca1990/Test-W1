@@ -1,0 +1,41 @@
+/*Bottone PARTIAMO!*/
+#bottone {background-color:#f04c2f; font-weight: bold;}
+
+
+/* Your styles here */
+html{font-size: 100%em;}
+header{background-color: black;}
+*{box-sizing: border-box;}
+
+body {text-align: center; font: #393d41, 1.2rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.65;}
+h1 {color:#25a2c3; line-height:1.5; font-size: 3.5rem; font-weight: bold; line-height: 5rem; widht :50%;margin:auto}
+h6 {line-height:1.5; color:#25a2c3; font-weight: bold;}
+main section:first-child{background-image: url(../images/banner.jpg); background-size: auto;}
+
+
+footer {background-color: #25a2c3; color:#c8e7f0}
+.bordo {border-color:#dee1e3; margin-bottom: 50px}
+footer a {color:#c8e7f0;}
+footer h3 {color:white}
+header img {height:50%; border-top;:auto}
+div#Tonda img{min-height: 500px;}
+
+
+p{margin-bottom: 25px}
+
+#Sottotitolo {margin-bottom: 25px; height: 30rem;}
+
+section section {margin-top: 25px; color:#c8e7f0}
+section h5 {color:white !important; font-size: 250%}
+footer h3 {font-size: 20px; font-weight: bold;}
+footer p{font-size: 60%;}
+section section {background-color: #e22d0e; margin-bottom: 50px}
+footer>adress {margin-bottom: 15px}
+em {font-style: italic;}
+#Tonda {border-radius: 50%; margin-bottom: 25px}
+#Sottotitolo section{font: size 30px;}
+#Bottone a{background-color: #f04c2f; padding: 5px; border-radius: 10%; font-weight: bold;color:white}
+
+
+
+
