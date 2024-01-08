@@ -1,0 +1,273 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+/* HEADER */
+
+/* #logo {
+    text-align: center;
+} */
+
+header{
+    background-color: black;
+}
+
+#logo img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding: 6%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-right: 0; */
+}
+
+
+/* FIRST SECTION */
+
+section {
+    text-align: center;
+}
+
+h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 250%;
+    padding: 5%;
+    line-height: 1;
+}
+
+
+/* DA SISTEMARE LA POSIZIONE DELL'IMMAGINE BACKGROUND */
+
+#first {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    padding-top: 5%;
+}
+
+#first p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#first button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    border:none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+
+}
+
+
+/* SECOND SECTION */
+#second {
+    padding-top: 5%;
+}
+h2{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin:2%;
+}
+
+#second img{
+    border-radius: 50%;
+    margin: 3%;
+    width: 75%;
+}
+
+#second p{
+    margin: 0 10%;
+    
+}
+
+#second div{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+/* THIRD SECTION */
+
+#third {
+    background-color: #e22d0e;
+    color: white;
+    padding: 2%;
+}
+#third h3{
+    font-weight: bold;
+    font-size: 200%;
+    padding: 3%
+
+}
+
+#third p{
+    font-style: italic;
+}
+
+#third div{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+span{
+    font-size: 150%;
+}
+
+
+
+
+
+
+/* FOURTH SECTION */
+
+#fourth .card {
+    width: 80%;
+    margin: 10% auto;
+    border:solid 1px #dee1e3 ;
+}
+
+#fourth .card img {
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#fourth .card p {
+    margin-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    background-color: #25a2c3;
+    color : #c8e7f0;
+}
+
+footer h3{
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    padding-top: 8%;
+    padding-bottom: 3%;
+   
+}
+
+footer a {
+    text-decoration: none;
+    color : #c8e7f0;
+
+}
+
+#copyright{
+    font-size:80%;
+    padding-top:10%;
+    padding-bottom: 20%;
+}
+
+hr {
+    width: 50%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY PER VERSIONE DESKTOP */
+@media screen and (min-width: 1300px) {
+    
+    #logo img {
+        margin-left: 0;
+        width: 8%;
+        padding: 2%;
+    }
+
+    #first button {
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    #second{
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+    }
+    
+
+    #second img{ 
+        flex-order: 1;
+        width: 50%;
+    }
+    .right{
+        flex-shrink: 3;
+        
+    }
+    #fourth {
+        display: flex;
+        align-items: center;
+    }
+    #fourth .card{
+        flex-shrink: 3;
+        margin: 3% 3%;
+    }
+    #fourth img{
+        height: 65%;
+        width: 100%;
+    }
+
+    hr {
+        margin-top: 2%;
+    }
+    #copyright{
+        padding-top:10%;
+        padding-bottom: 20%;
+    }
+    h1{
+        padding: 2%;
+    }
+
+    footer h3 {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        /* padding-top: 3%; */
+    }
+
+    #copyright {
+        padding : 2%;
+    }
+
+    #third div {
+        margin: 2%;
+    }
+    #third {
+        padding: 1%;
+    }
+
+}
